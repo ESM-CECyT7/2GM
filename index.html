@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Consecuencias Economicas 2GM</title>
+    <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.6.3/mousetrap.js"
+        integrity="sha256-Dehh0RO5armZwzcgV1ly5K24y/7Tm5CjViT4/77vULE=" crossorigin="anonymous"></script>
+    <!--<script type="text/javascript" src="mousetrap.js"></script>-->
+    <style type="text/css">
+        .node circle {
+            cursor: pointer;
+            fill: #fff;
+            stroke: steelblue;
+            stroke-width: 1.5px;
+        }
+
+        .node text {
+            font-size: 11px;
+        }
+
+        path.link {
+            fill: none;
+            stroke: #ccc;
+            stroke-width: 1.5px;
+        }
+
+        .node.selected circle {
+            fill: green;
+        }
+
+
+
+
+        ul.tree,
+        ul.tree ul {
+            list-style-type: none;
+            background: #fff url(http://odyniec.net/articles/turning-lists-into-trees/vline.png) repeat-y;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.tree ul {
+            margin-left: 10px;
+        }
+
+        ul.tree li {
+            margin: 0;
+            padding: 0 12px;
+            line-height: 20px;
+            background: url(http://odyniec.net/articles/turning-lists-into-trees/node.png) no-repeat;
+            color: #369;
+            font-weight: bold;
+            font-size: 0.6cm;
+        }
+
+        ul.tree li.last {
+            background: #fff url(http://odyniec.net/articles/turning-lists-into-trees/lastnode.png) no-repeat;
+        }
+
+        #menulist {
+            font-size: large;
+        }
+
+        .back-to-top {
+            cursor: pointer;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+        }
+
+        .footer {
+            
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            /* Set the fixed height of the footer here */
+            line-height: 60px;
+            /* Vertically center the text there */
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">RDD ESM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html">Inicio
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div>
+
+        <div class="container">
+            <h1>Las consecuencias economicas y geopoliticas de la Segunda Guerra Mundial</h1>
+        </div>
+
+        <div class="container d-flex justify-content-center" id="menulist">
+
+            <div>
+                <ul class="tree">
+                    <li class="last">
+                        <ul>
+                            <li><a href="index.html#segundaguerra">La segunda guerra mundial</a></li>
+                            <li><a href="index.html#posguerra">La posguerra</a></li>
+                            <li><a href="index.html#desarrollopolitico">Los grandes desarrollos politicos</a></li>
+                            <li><a href="index.html#finales">Consideraciones finales</a></li>
+                            <li><a href="index.html#marshall">El plan Marshall</a></li>
+                            <li class="last"><a href="index.html#supranacionales">Las organizaciones supranacionales
+                                </a>
+                                <ul>
+                                    <li class="last"><a href="index.html#laotan">La OTAN</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+            </div>
+        </div>
+        <div class="col-md-6 offset-md-3">
+            <h2 id="segundaguerra">La Segunda Guerra Mundial</h2>
+
+            <p class="text-justify">
+                Los tratados de paz que dieron fin a la Primera Guerra Mundial no dejaron contento a nadie. Los veinte
+                años
+                posteriores a dicha contienda están llenos de luchas económicas, sociales y políticas, nacionales e
+                internacionales, destacan, por una parte, las contradicciones entre las potencias de Europa Occidental,
+                Japón y los Estados Unidos, por mantener su situación privilegiada o por lograr un nuevo reparto del
+                mundo
+                y, por otra, la hostilidad de todo el mundo capitalista contra la Unión Soviética y las tendencias
+                socialistas. A partir de 1933, con el ascenso del nazismo al poder en Alemania, se agudizan los
+                enfrentamientos y la formación de bloques, hasta que estalla el conflicto armado. En 1939 empezó la
+                Segunda
+                Guerra Mundial, al ser agredida Polonia por Alemania. Dos años más tarde se universalizó el conflicto,
+                enfrentándose el “Eje” nazi fascista encabezado por la Alemania hitleriana, Italia y Japón por un lado
+                con
+                los Estados Unidos, Gran Bretaña, la Unión Soviética y sus partidarios por el otro.
+                En la primera fase de éste, de 1939 a 1941, Alemania conquista casi todo el continente europeo; la Unión
+                Soviética, que había temido ser atacada sola por Alemania y sus aliados, había firmado un tratado de no
+                agresión con ella, que le permite disponer de dos años de preparación. El período de junio a diciembre
+                de
+                1941, significa la extensión del conflicto a todo el mundo, con el ataque japonés a los estados Unidos.
+                La
+                cuarta fase, que abarca desde el invierno de 1942-1943 hasta e junio de 1944, marca la destrucción de la
+                fuerza central del ejército alemán: se inicia con la batalla de Stalingrado y termina antes del
+                desembarco
+                aliado en Francia. La quinta empieza con dicha invasión y concluye con la rendición de Alemania (mayo de
+                1945) y la sexta y última va de este momento hasta la derrota de Japón (septiembre de 1945).
+            </p>
+            <div class="text-center">
+                <img src="mapasgm.jpg" class="rounded" alt="Mapa - Segunda Guerra Mundial">
+            </div>
+
+            <h2 id="posguerra">La posguerra</h2>
+            <p class="text-justify">
+                Las cinco décadas transcurridas desde el fin de la Segunda Guerra Mundial se caracterizan por profundas
+                inquietudes sociales, económicas y políticas; durante unos cuarenta y cinco años hay un fuerte temor al
+                estallido de una nueva y más terrible conflagración mundial. Se acelera y se incrementa el contacto
+                entre
+                todos los pueblos de la Tierra, se producen y se deshacen distintas alianzas y bloques, pero también se
+                acentúan las diferencias nacionales y sociales. Aumenta poderosamente la producción industrial, pero
+                continúa y se incrementa el hambre en vastas zonas. La población mundial crece rápidamente. Se plantea
+                en
+                forma más clara que nunca antes la disyuntiva entre un gran progreso de la humanidad y su
+                autodestrucción.
+                También en América Latina se manifestaron grandes inquietudes sociales y políticas, cuyas expresiones
+                más
+                notorias son la revolución cubana y el gobierno marxista, de elección popular, de la Unidad Popular en
+                Chile.
+            </p>
+
+            <h2 id="desarrollopolitico">Los grandes desarrollos politicos</h2>
+            <p class="text-justify">
+                Los acuerdos de Teherán, Moscú, Yalta y Potsdam expresaron, durante la Segunda Guerra Mundial, la
+                alianza de
+                los países antifascistas. Sin embargo, desde 1947 predomina claramente una nueva situación
+                internacional: la
+                Guerra Fría. Los estados Unidos, encabezando el “bloque occidental” tratan de impedir transformaciones
+                sociales que afecten su sistema de dominio; se apoyan en su potencial industrial y militar, en su
+                monopolio
+                temporal del arma atómica. La Unión Soviética, a su vez, ejerce durante más de cuatro décadas el
+                predominio
+                de Europa Oriental. Pronto logra desarrollar también su bomba nuclear. Con el triunfo de la Revolución
+                China, en 1949, el campo que se denomina socialista llega a abarcar la tercera parte de la humanidad,
+                pero a
+                principios de la década de los noventa se derrumba la Unión Soviética y desaparece el bloque encabezado
+                por
+                ésta.
+                La Conferencia de Yalta estableció la división de esferas de influencia cuando los llamados
+                “Tres Grandes”, Estados Unidos, la Unión Soviética y la Gran Bretaña, dirigentes del bloque aliado
+                triunfador, a los que se suman en cierta forma China y Francia, se reunieron en el Puerto de Yalta,
+                Ucrania,
+                para acordar, en los últimos meses de la guerra, una línea de acción común para reorganizar el mundo y
+                garantizar la paz. En realidad, lo que se hace en esta reunión es establecer una nueva división
+                geopolítica
+                internacional dividiéndose el territorio mundial para establecer sus esferas de influencia (capitalista
+                o
+                socialista según el caso). Entre los acuerdos encontramos los siguientes:
+
+                <ul>
+                    <li>En las zonas occidentales se mantiene el sistema de empresa privada.</li>
+                    <li>Se autoriza la constitución de un nuevo Estado: la República federal de Alemania (RFA) bajo la
+                        influencia
+                        capitalista de Estados Unidos.</li>
+                    <li>En la parte oriental se constituye la República Democrática Alemana (RDA) bajo la influencia
+                        socialista de
+                        la URSS.</li>
+                    <li>Italia debe pagar gastos de guerra, se transforma en república y firma la paz.</li>
+                    <li>Japón debe pagar gastos de guerra, se le prohíbe tener un cuerpo militar, aunque mantiene su
+                        moneda
+                        nacional su economía deberá basarse en el dólar estadounidense y se transforma en monarquía
+                        constitucional
+                        bajo ocupación norteamericana.</li>
+                    <li>Se reincorporan a la Unión Soviética los territorios que ésta había tenido que ceder a Polonia
+                        después de
+                        la Primera Guerra Mundial.</li>
+                    <li>Asimismo, quedan bajo influencia socialista los países que rodean el territorio fronterizo de la
+                        Unión
+                        Soviética con Europa Oriental.</li>
+                </ul>
+
+                <div class="text-center">
+                    <img src="alemaniadividida.png" class="rounded" alt="Alemania dividida">
+                </div>
+            </p>
+            <h2 id="finales">Consideraciones Finales</h2>
+            <p class="text-justify">
+                Al cabo del conflicto importantes territoriospasarona integrarlaUnión Soviética. Finlandia debió aceptar
+                las
+                pérdidas de 1939. Los Estados Bálticos quedaron anexados. Polonia, transformada vio convertida la línea
+                de
+                partición germano-soviética de 1939 en su frontera con la Unión Soviética. Checoslovaquia recuperó los
+                territorios perdidos en la Conferencia de Múnich pero debió ceder Rutenia a los soviéticos, que por
+                primera
+                vez extendieron su territorio más allá de los Cárpatos. Rumania perdió a Besarabia y a Bukovina. A estas
+                adquisiciones territoriales se agregó el dominiodela Unión Soviética sobre los regímenes politicos
+                instaurados en Polonia, Rumania, Bulgaria, Hungría, Yugoslavia y Albania. Un golpe de Estado comunista
+                en
+                Checoslovaquia(1948) puso también a éste país bajo influencia soviética.El peligro de la continua
+                expansion
+                de la influencia soviética, evidenciado por los acontecimientos de Europa oriental, determinó que los
+                Estados Unidos organizaran la defensa con medidas económicas y militares Con las primeras (como el Plan
+                Marshall) se propuso impedirqueel comunismo aprovechara para su propaganda la miseriadelos países
+                empobrecidosporla guerra. Las medidas de carácter político-militar, necesarias ante la incertidumbredela
+                seguridad colectiva amparada por las Naciones Unidas, se concretaron en acuerdos como el que creó la
+                Organización del Tratado del Atlántico Norte (OTAN).
+            </p>
+            <div class="text-center">
+                <img src="mapaterritoriosurss.png" class="rounded w-75" alt="Europa tras la SGM">
+            </div>
+            <div id="body" class="d-flex justify-content-center">
+
+            </div>
+
+            <h2 id="marshall">Plan Marshall</h2>
+            <p class="text-justify">
+                En los primeros años de la posguerra se reconstruyecongran rapidez la economía de Europa Occidental.
+                Contribuye a ello el plan Marshall mediante el cual los Estados Unidos facilitan importantes recursos y
+                penetran profundamente en estos países. En la mayoría de países de esta zona se establece el llamado
+                “estado
+                de bienestar” (welfare state), que se propuso dar protección médica, seguridad en el trabajo, accesoa la
+                educación y otros beneficios a toda la población. En algunos países, los obreros de las grandes empresas
+                obtienen el derecho de participar, minoritariamente, en la dirección de las mismas.El Estado interviene
+                en
+                importante medida en la vida económica. El sistema se crea, en gran parte, como respuesta a las
+                exigencias
+                populares, y para evitar las tendencias que exigen una transformación a fondo, socialista. Las reformas
+                efectuadas no alteran la estructura básica de la sociedad; las diferencias de clases no sufren
+                modificaciones fundamentales.
+            </p>
+            <h2 id="supranacionales">Organizaciones Supranacionales</h2>
+            <p class="text-justify">
+                Son organizaciones internacionales para lograr fines comunes y alejar el peligro de la guerra. El primer
+                intento serio y efectivo de organización supranacional de carácter mundial fue la Sociedad de Naciones.
+                El
+                pacto que crea esta organización se dio el 28 de abril de 1919 y tenía como objetivos principales:
+                <ul>
+                    <li>Promover la cooperación internacional y</li>
+                    <li>Lograr la paz.</li>
+                </ul>
+                Después de la Segunda Guerra Mundial se convierte en la Organización de las Naciones Unidas (ONU) que
+                está
+                integrada de otras organizaciones como:
+                <ul>
+                    <li>La Unión Postal Internacional</li>
+                    <li>Organización Internacional del Trabajo (OIT)</li>
+                    <li>Fondo Monetario Internacional (FMI)</li>
+                    <li>La UNESCO que atiende a escala mundial la educación y la ciencia.</li>
+                    <li>UNICEF, organismo que se encarga del desarrollo de los niños a nivel mundial.</li>
+                    <li>La FAO que se especializa en la alimentación mundial.,etc.</li>
+                </ul>
+                La Organización de las Naciones Unidas tiene como objetivo fundamental la salvaguarda de la paz. El
+                órgano
+                encargado de ello es el Consejo de Seguridad, compuesto por quince (originalmente once) naciones. Para
+                que
+                pueda tomar acuerdos importantes, se requiere la aprobación de las cinco potencias permanentes en el
+                Consejo
+                que son: China, E.U., Gran Bretaña, Rusia y Francia. Esta disposición se conoce como el “derecho a veto”
+                y
+                tiene por finalidad evitar que la ONU tome decisiones que ataquen los intereses vitales de una de las
+                grandes potencias, ya que el intento de ponerlas en práctica provocaría precisamente una guerra mundial.
+
+            </p>
+            <h3 id="laotan">La Organizacion del Tratado del Atlántico Norte (OTAN)</h3>
+            <p class="text-justify">
+                Organización supranacional fundada para establecer una alianza defensiva regional, cuya constitución
+                quedaba
+                sancionada en el artículo 9° del Tratado del Atlántico Norte firmado el 4 de abril de 1949. Los primeros
+                signatarios fueron Bélgica, Reino Unido, Canadá, Dinamarca, Francia, Islandia, Italia, Luxemburgo,
+                países
+                bajos, Noruega, Portugal y Estados Unidos. Posteriormente fueron admitidas Grecia y Turquía (1952), La
+                república federal de Alemania (1955), España
+                (1982) y Hungría, Polonia y la República Checa (1999). El propósito de la OTAN es preservar la
+                estabilidad,
+                el bienestar y la libertad de sus miembros mediante un sistema de seguridad colectiva. En 1990, la
+                recién
+                unificada Alemania reemplazó a Alemania occidental como miembro de esta alianza.
+                </br>
+                <br />
+                En los años posteriores a la II Guerra mundial (1939 – 1945), momento de inicio de la Guerra Fría,
+                muchos
+                líderes occidentales vieron la política de la Unión de Repúblicas Socialistas Soviéticas (URSS) como una
+                amenaza a la estabilidad y a la paz en Europa oriental, las demandas territoriales de la URSS y su apoyo
+                a
+                la guerra de guerrillas en Grecia y al separatismo regional en Irán se interpretaron por muchos como los
+                primeros pasos hacia una nueva guerra mundial. Tales acontecimientos dieron lugar a la firma del Tratado
+                de
+                Dunkerque en 1947 entre el Reino Unido y Francia, con el compromiso de establecer una defensa común
+                frente a
+                una posible agresión. Acontecimientos posteriores entre los que se cuentan el rechazo por parte de las
+                naciones de Europa oriental al Programa de reconstrucción europea (Plan Marshall) y la creación en 1947
+                de
+                la Kominform, una organización comunista europea, condujeron al Tratado de Bruselas, firmado por la
+                mayoría
+                de los países de Europa Occidental en 1948. Entre los objetivos de ese pacto figuraba la defensa
+                colectiva
+                de sus miembros. El bloqueo de Berlín, iniciado en marzo de 1948, llevó a unas negociaciones entre
+                Europa
+                Occidental, Canadá y Estados Unidos, cuyo resultado fue el Tratado del Atlántico Norte.
+                <br />
+                <br />
+
+                En 1942 la poderosa máquina de guerra alemana había conseguido dominar la mayor parte de Europa, y la
+                Unión
+                Soviética estaba a punto de ser derrotada. La Ley de Préstamos y arriendos estadounidense y los
+                suministros
+                militares británicos permitieron el rearme de los soviéticos, que combatieron contra los alemanes hasta
+                que
+                la situación se equilibró durante la primera parte de la guerra. Después de derrotar a las potencias del
+                eje
+                en el Norte de África, los aliados invadieron Italia y avanzaron hacia el Norte, en donde empezaron a
+                llevar
+                a cabo los preparativos para el mayor y más ambicioso asalto de la historia. La invasión de Normandía
+                obligó
+                a los alemanes a defender los territorios ocupados en tres frentes: el meridional, el oriental y el
+                occidental.
+                <br /><br />
+                <h4>CAME</h4>
+                <p class="text-justify">
+                    CAME: Consejo de Ayuda Mutua Económica. Reúne a los países socialistas carentes de los bienes de
+                    capital.
+                    Desde que ponen rumbo en el socialismo, estos Estados desarrollan una creciente cooperación
+                    económica,
+                    que
+                    les ayuda también a enfrentarse al bloqueo económico decretado por los países occidentales, los que
+                    suspenden casi totalmente el comercio con ellos. Esta cooperación se institucionaliza en el Consejo
+                    de
+                    Ayuda
+                    Mutua Económica (CAME , o “Comecon” por su nombre en inglés).
+                </p>
+
+                <h4>Pacto de Varsovia</h4>
+                <p class="text-justify">
+                    Pacto de Varsovia: (Oficialmente Tratado de Amistad, Colaboración y Asistencia Mutua) También se
+                    desarrolla
+                    entre los estados socialistas una estrecha alianza política y militar, encabezada por la Unión
+                    Soviética. En
+                    1955 se forma el “Pacto de Varsovia” como una respuesta a la OTAN. Fue una alianza militar compuesta
+                    por
+                    ocho países comunistas europeos, creada para contrarrestar el rearme de la República Federal de
+                    Alemania,
+                    popularmente llamada Alemania Occidental, y su ingreso a la OTAN. El tratado fue firmado en Varsovia
+                    (Polonia) el 14 de mayo de 1955 por Albania, Bulgaria, Checoslovaquia (hoy República Checa y
+                    Eslovaquia),
+                    República Democrática de Alemania, Hungría, Polonia,
+                    Rumania y la URSS. La alianza estaba dominada por esta última que mantenía un estricto control sobre
+                    los
+                    otros estados firmantes del pacto. En 1961 Albania rompió relaciones diplomáticas con la URSS a
+                    causa de
+                    diferencias ideológicas y en 1968 abandonó el Pacto de Varsovia.
+                    A pesar de que el Pacto de Varsovia fue oficialmente renovado en 1985 para otros veinte años, la
+                    transformación política de la Europa Oriental, a fines de la década de 1980, debilitó profundamente
+                    a la
+                    organización. La URSS inició la evacuación de sus tropas de otros países del Pacto de Varsovia y la
+                    República Democrática de Alemania abandonó la alianza para unirse a la República Federal de
+                    Alemania, en
+                    octubre de 1990. Todas las funciones militares conjuntas cesaron a finales de marzo de 1991, y en
+                    julio
+                    los
+                    dirigentes de los seis países miembros restantes acordaron la disolución de la alianza.
+                </p>
+                <h4>GATT</h4>
+                <p class="text-justify">
+                    GATT: Al resurgir Europa y Japón, Los Estados Unidos conservan su posición de potencia principal del
+                    campo
+                    capitalista; se establece una verdadera alianza, a pesar de sus rivalidades, entre las naciones
+                    “ricas”,
+                    es
+                    decir, entre los dueños de la riqueza de éstas, frente a las pobres. Esta alianza se expresa, en
+                    gran
+                    parte,
+                    a través de su predominio en organismos internacionales como el GATT (Acuerdo General de Comercio y
+                    aranceles, que se convirtió en 1995 en la Organización Mundial de comercio OMC). Surge para
+                    encargarse
+                    de
+                    establecer las políticas comerciales a través de acuerdos intergubernamentales con el fin de
+                    disminuir
+                    las
+                    trabas al comercio internacional.
+                </p>
+                <h4>SELA</h4>
+                <p class="text-justify">
+                    SELA: Sistema económico Latinoamericano. Está integrado por todos los países del continente
+                    americano
+                    excepto Estados Unidos y Canadá.
+                </p>
+            </p>
+
+            <div class="text-center">
+                <img src="paris1968.jpg" class="rounded w-75" alt="Paris 1968">
+            </div>
+
+            <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button"
+                title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span
+                    class="glyphicon glyphicon-chevron-up"></span></a>
+
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">2019 - IPN</span>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        /*
+        // Add a new item
+        root.right.push({name: 'bar'}, {name: 'none'}, {name: 'some'}, {name: 'value'});
+        update(root);
+        
+        // Move from the first to the last
+        root.right.push(root.right.shift());
+        update(root);
+        
+        // Move from right to left
+        var tmp = root.right.shift();
+        tmp.position = 'left';
+        root.left.push(tmp);
+        update(root);
+        
+        // Move from left to right
+        var tmp = root.left.shift();
+        tmp.position = 'right';
+        root.right.push(tmp);
+        update(root);
+        
+        // Switch connector type
+        connector = diagonal;
+        update(root);
+        
+        */
+
+        var m = [20, 120, 20, 120],
+            //w = 1280 - m[1] - m[3],
+            w = 900 - m[1] - m[3],
+            h = 500 - m[0] - m[2],
+            i = 0,
+            root;
+
+        var getDirection = function (data) {
+            if (!data) {
+                return 'root';
+            }
+            if (data.position) {
+                return data.position;
+            }
+            return getDirection(data.parent);
+        };
+
+        var selectNode = function (target) {
+            if (target) {
+                var sel = d3.selectAll('#body svg .node').filter(function (d) { return d.id == target.id })[0][0];
+                if (sel) {
+                    select(sel);
+                }
+            }
+        };
+
+        Mousetrap.bind('left', function () {
+            // left key pressed
+            var selection = d3.select(".node.selected")[0][0];
+            if (selection) {
+                var data = selection.__data__;
+                var dir = getDirection(data);
+                switch (dir) {
+                    case ('right'):
+                    case ('root'):
+                        selectNode(data.parent || data.left[0]);
+                        break;
+                    case ('left'):
+                        selectNode((data.children || [])[0]);
+                        break;
+                    default:
+                        break;
+                }
+            }
+        });
+        Mousetrap.bind('right', function () {
+            // right key pressed
+            var selection = d3.select(".node.selected")[0][0];
+            if (selection) {
+                var data = selection.__data__;
+                var dir = getDirection(data);
+                switch (dir) {
+                    case ('left'):
+                    case ('root'):
+                        selectNode(data.parent || data.right[0]);
+                        break;
+                    case ('right'):
+                        selectNode((data.children || [])[0]);
+                        break;
+                    default:
+                        break;
+                }
+            }
+        });
+        Mousetrap.bind('up', function () {
+            // up key pressed
+            var selection = d3.select(".node.selected")[0][0];
+            if (selection) {
+                var data = selection.__data__;
+                var dir = getDirection(data);
+                switch (dir) {
+                    case ('root'):
+                        break;
+                    case ('left'):
+                    case ('right'):
+                        var p = data.parent, nl = p.children || [], i = 1;
+                        if (p[dir]) {
+                            nl = p[dir];
+                        }
+                        l = nl.length;
+                        for (; i < l; i++) {
+                            if (nl[i].id === data.id) {
+                                selectNode(nl[i - 1]);
+                                break;
+                            }
+                        }
+                        break;
+                }
+            }
+            return false;
+        });
+        Mousetrap.bind('down', function () {
+            // down key pressed
+            // up key pressed
+            var selection = d3.select(".node.selected")[0][0];
+            if (selection) {
+                var data = selection.__data__;
+                var dir = getDirection(data);
+                switch (dir) {
+                    case ('root'):
+                        break;
+                    case ('left'):
+                    case ('right'):
+                        var p = data.parent, nl = p.children || [], i = 0;
+                        if (p[dir]) {
+                            nl = p[dir];
+                        }
+                        l = nl.length;
+                        for (; i < l - 1; i++) {
+                            if (nl[i].id === data.id) {
+                                selectNode(nl[i + 1]);
+                                break;
+                            }
+                        }
+                        break;
+                }
+            }
+            return false;
+        });
+
+        Mousetrap.bind('ins', function () {
+            var selection = d3.select(".node.selected")[0][0];
+            if (selection) {
+                var data = selection.__data__;
+                var dir = getDirection(data);
+                var name = prompt('New name');
+                if (name) {
+                    if (dir === 'root') {
+                        dir = data.right.length > data.left.length ? 'left' : 'right';
+                    }
+                    var cl = data[dir] || data.children || data._children;
+                    if (!cl) {
+                        cl = data.children = [];
+                    }
+                    cl.push({ name: name, position: dir });
+                    update(root);
+                }
+            }
+        });
+
+        Mousetrap.bind('del', function () {
+            var selection = d3.select(".node.selected")[0][0];
+            if (selection) {
+                var data = selection.__data__;
+                var dir = getDirection(data);
+                if (dir === 'root') {
+                    alert('Can\'t delete root');
+                    return;
+                }
+                var cl = data.parent[dir] || data.parent.children;
+                if (!cl) {
+                    alert('Could not locate children');
+                    return;
+                }
+                var i = 0, l = cl.length;
+                for (; i < l; i++) {
+                    if (cl[i].id === data.id) {
+                        if (confirm('Sure you want to delete ' + data.name + '?') === true) {
+                            cl.splice(i, 1);
+                        }
+                        break;
+                    }
+                }
+                selectNode(root);
+                update(root);
+            }
+        });
+
+        Mousetrap.bind('enter', function () {
+            var selection = d3.select(".node.selected")[0][0];
+            if (selection) {
+                var data = selection.__data__;
+                data.name = prompt('New text:', data.name) || data.name;
+                update(root);
+            }
+        });
+
+        var addNodes = function (dir) {
+            root[dir].push({ name: 'bar', position: dir }, { name: 'none', position: dir }, { name: 'some', position: dir }, { name: 'value', position: dir });
+            update(root);
+        };
+
+        var moveNodes = function (from, to) {
+            var tmp = root[from].shift();
+            tmp.position = to;
+            root[to].push(tmp);
+            update(root);
+        };
+
+        var setConnector = function (type) {
+            connector = window[type];
+            update(root);
+        };
+
+        var select = function (node) {
+            // Find previously selected, unselect
+            d3.select(".selected").classed("selected", false);
+            // Select current item
+            d3.select(node).classed("selected", true);
+        };
+
+        var createNew = function () {
+            root = { name: 'Root', children: [], left: [], right: [] };
+            update(root, true);
+            selectNode(root);
+        };
+
+        var handleClick = function (d, index) {
+            select(this);
+            update(d);
+        };
+
+        var tree = d3.layout.tree()
+            .size([h, w]);
+
+        var calcLeft = function (d) {
+            var l = d.y;
+            if (d.position === 'left') {
+                l = (d.y) - w / 2;
+                l = (w / 2) + l;
+            }
+            return { x: d.x, y: l };
+        };
+
+        var diagonal = d3.svg.diagonal()
+            .projection(function (d) { return [d.y, d.x]; });
+        var elbow = function (d, i) {
+            var source = calcLeft(d.source);
+            var target = calcLeft(d.target);
+            var hy = (target.y - source.y) / 2;
+            return "M" + source.y + "," + source.x
+                + "H" + (source.y + hy)
+                + "V" + target.x + "H" + target.y;
+        };
+        var connector = elbow;
+
+        var vis = d3.select("#body")
+            .append("svg:svg")
+            .attr("width", w
+                + m[1] + m[3])
+            .attr("height", h + m[0] + m[2])
+            .append("svg:g")
+            //.attr("transform", "translate(" + m[3] + "," + m[0] + ")")
+            .attr("transform", "translate(" + (w / 2 + m[3]) + "," + m[0] + ")")
+            ;
+
+        //*
+        var loadJSON = function (fileName) {
+            //d3.json("/data/data.json", function(json) {
+            d3.json(fileName, function (json) {
+                var i = 0, l = json.children.length;
+                window.data = root = json;
+                root.x0 = h / 2;
+                root.y0 = 0;
+
+                json.left = [];
+                json.right = [];
+
+
+                for (; i < l; i++) {
+                    if (i % 2) {
+                        json.left.push(json.children[i]);
+                        json.children[i].position = 'left';
+                    } else {
+                        json.right.push(json.children[i]);
+                        json.children[i].position = 'right';
+                    }
+                }
+
+
+                update(root, true);
+                selectNode(root);
+            });
+        };
+        //*/
+
+        //*
+        var loadFreeMind = function (fileName) {
+            d3.xml(fileName, 'application/xml', function (err, xml) {
+                // Changes XML to JSON
+                function xmlToJson(xml) {
+
+                    // Create the return object
+                    var obj = {};
+
+                    if (xml.nodeType == 1) { // element
+                        // do attributes
+                        if (xml.attributes.length > 0) {
+                            obj["@attributes"] = {};
+                            for (var j = 0; j < xml.attributes.length; j++) {
+                                var attribute = xml.attributes.item(j);
+                                obj["@attributes"][attribute.nodeName] = attribute.nodeValue;
+                            }
+                        }
+                    } else if (xml.nodeType == 3) { // text
+                        obj = xml.nodeValue;
+                    }
+
+                    // do children
+                    if (xml.hasChildNodes()) {
+                        for (var i = 0; i < xml.childNodes.length; i++) {
+                            var item = xml.childNodes.item(i);
+                            var nodeName = item.nodeName;
+                            if (typeof (obj[nodeName]) == "undefined") {
+                                obj[nodeName] = xmlToJson(item);
+                            } else {
+                                if (typeof (obj[nodeName].push) == "undefined") {
+                                    var old = obj[nodeName];
+                                    obj[nodeName] = [];
+                                    obj[nodeName].push(old);
+                                }
+                                obj[nodeName].push(xmlToJson(item));
+                            }
+                        }
+                    }
+                    return obj;
+                };
+                var js = xmlToJson(xml);
+                var data = js.map.node;
+                var parseData = function (data, direction) {
+                    var key, i, l, dir = direction, node = {}, child;
+                    for (key in data['@attributes']) {
+                        node[key.toLowerCase()] = data['@attributes'][key];
+                    }
+                    node.direction = node.direction || dir;
+                    l = (data.node || []).length;
+                    if (l) {
+                        node.children = [];
+                        for (i = 0; i < l; i++) {
+                            dir = data.node[i]['@attributes'].POSITION || dir;
+                            child = parseData(data.node[i], {}, dir);
+                            (node[dir] = node[dir] || []).push(child);
+                            node.children.push(child);
+                        }
+                    }
+                    return node;
+                };
+                root = parseData(data, 'right');
+                root.x0 = h / 2;
+                root.y0 = w / 2;
+                update(root, true);
+                selectNode(root);
+            });
+        };
+        //*/
+
+        var toArray = function (item, arr, d) {
+            arr = arr || [];
+            var dr = d || 1;
+            var i = 0, l = item.children ? item.children.length : 0;
+            arr.push(item);
+            if (item.position && item.position === 'left') {
+                dr = -1;
+            }
+            item.y = dr * item.y;
+            for (; i < l; i++) {
+                toArray(item.children[i], arr, dr);
+            }
+            return arr;
+        };
+
+        function update(source, slow) {
+            var duration = (d3.event && d3.event.altKey) || slow ? 1000 : 100;
+
+            // Compute the new tree layout.
+            var nodesLeft = tree
+                .size([h, (w / 2) - 20])
+                .children(function (d) {
+                    return (d.depth === 0) ? d.left : d.children;
+                })
+                .nodes(root)
+                .reverse();
+            var nodesRight = tree
+                .size([h, w / 2])
+                .children(function (d) {
+                    return (d.depth === 0) ? d.right : d.children;
+                })
+                .nodes(root)
+                .reverse();
+            root.children = root.left.concat(root.right);
+            root._children = null;
+            var nodes = toArray(root);
+
+            // Normalize for fixed-depth.
+            //nodes.forEach(function(d) { d.y = d.depth * 180; });
+
+            // Update the nodes…
+            var node = vis.selectAll("g.node")
+                .data(nodes, function (d) { return d.id || (d.id = ++i); });
+
+            // Enter any new nodes at the parent's previous position.
+            var nodeEnter = node.enter().append("svg:g")
+                .attr("class", function (d) { return d.selected ? "node selected" : "node"; })
+                .attr("transform", function (d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+                .on("click", handleClick);
+
+            nodeEnter.append("svg:circle")
+                .attr("r", 1e-6);
+            //.style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+            nodeEnter.append("svg:text")
+                .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
+                //            .attr("dy", ".35em")
+                //            .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+                .attr("dy", 14)
+                .attr("text-anchor", "middle")
+                .text(function (d) { return (d.name || d.text); })
+                .style("fill-opacity", 1);
+
+            // Transition nodes to their new position.
+            var nodeUpdate = node.transition()
+                //.attr("class", function(d){ return d.selected?"node selected":"node"; })
+                .duration(duration)
+                .attr("transform", function (d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+            nodeUpdate.select("text")
+                .text(function (d) { return (d.name || d.text); });
+
+            nodeUpdate.select("circle")
+                .attr("r", 4.5);
+            //.style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+            /*
+                    nodeUpdate.select("text")
+                        .attr("dy", 14)
+                        .attr("text-anchor", "middle")
+                        .style("fill-opacity", 1);
+            */
+
+            // Transition exiting nodes to the parent's new position.
+            var nodeExit = node.exit().transition()
+                .duration(duration)
+                .attr("transform", function (d) { return "translate(" + source.y + "," + source.x + ")"; })
+                .remove();
+
+            nodeExit.select("circle")
+                .attr("r", 1e-6);
+
+            nodeExit.select("text")
+                .style("fill-opacity", 1e-6);
+
+            // Update the links…
+            var link = vis.selectAll("path.link")
+                .data(tree.links(nodes), function (d) { return d.target.id; });
+
+            // Enter any new links at the parent's previous position.
+            link.enter().insert("svg:path", "g")
+                .attr("class", "link")
+                .attr("d", function (d) {
+                    var o = { x: source.x0, y: source.y0 };
+                    return connector({ source: o, target: o });
+                })
+                .transition()
+                .duration(duration)
+                .attr("d", connector);
+
+            // Transition links to their new position.
+            link.transition()
+                .duration(duration)
+                .attr("d", connector);
+
+            // Transition exiting nodes to the parent's new position.
+            link.exit().transition()
+                .duration(duration)
+                .attr("d", function (d) {
+                    var o = { x: source.x, y: source.y };
+                    return connector({ source: o, target: o });
+                })
+                .remove();
+
+            // Stash the old positions for transition.
+            nodes.forEach(function (d) {
+                d.x0 = d.x;
+                d.y0 = d.y;
+            });
+        }
+
+        // Toggle children.
+        function toggle(d) {
+            if (d.children) {
+                d._children = d.children;
+                d.children = null;
+            } else {
+                d.children = d._children;
+                d._children = null;
+            }
+        }
+
+        loadJSON('data.json');
+        setConnector('diagonal');
+
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#back-to-top').click(function () {
+                $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+            $('#back-to-top').tooltip('show');
+
+        });
+    </script>
+</body>
+
+</html>

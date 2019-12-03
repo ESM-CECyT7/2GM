@@ -1,0 +1,29 @@
+{
+    "name": "Conferencia de Yalta",
+    "children": [
+        {
+            "name": "Estados Unidos",
+            "children": [
+                {
+                    "name": "Franklin D. Roosevelt"
+                }
+            ]
+        },
+        {
+            "name": "Reino Unido",
+            "children": [
+                {
+                    "name": "W. Churchill"
+                }
+            ]
+        },
+        {
+            "name": "USSR",
+            "children": [
+                {
+                    "name": "Joseph Stalin"
+                }
+            ]
+        }
+    ]
+}
